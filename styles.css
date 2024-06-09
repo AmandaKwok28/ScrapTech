@@ -1,7 +1,7 @@
 /* Define a custom font using @font-face */
 @font-face {
     font-family: 'MyCustomFont'; /* The name you want to use for the font */
-    src: url('fonts/Ak4-Regular.ttf') format('truetype'); /* Path to your font file */
+    src: url('Fonts/Ak4-Regular.ttf') format('truetype'); /* Path to your font file */
     /* For .otf file, use format('opentype') */
 }
 
