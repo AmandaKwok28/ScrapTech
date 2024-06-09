@@ -58,7 +58,7 @@ button:hover {
 /* Style each highlight box */
 .highlight-box {
     width: 200px; /* Set a fixed width for each box */
-    border: 1px solid #ccc; /* Add a border around each box */
+    border: 1px solid white; /* Add a border around each box */
     padding: 10px; /* Add some padding inside each box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
     text-align: center; /* Center the text inside the box */
