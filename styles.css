@@ -27,6 +27,7 @@ button {
     background-color: #A2cffe;
     color: white;
     cursor: pointer;
+    font-size: 1.2em;
 }
 
 /* Button hover effect to give user feedback */
@@ -43,7 +44,7 @@ button:hover {
 
 /* Style the section title with the calligraphy font */
 #highlights h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'MyCustomFont', sans-serif;
     font-size: 2.5em; /* Increase the font size */
     margin-bottom: 20px; /* Add some space below the title */
 }
