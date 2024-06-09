@@ -9,6 +9,7 @@
 body {
     font-family: 'MyCustomFont', sans-serif;
     text-align: center;
+    background-color: #A2cffe;
 }
 
 /* Additional styles for your h1 element */
@@ -21,7 +22,7 @@ h1 {
 button {
     font-family: 'MyCustomFont', sans-serif; /* Ensures the button text uses the same font */
     padding: 10px 20px;
-    border: none;
+    border: white;
     background-color: #A2cffe;
     color: white;
     cursor: pointer;
