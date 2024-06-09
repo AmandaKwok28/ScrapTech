@@ -1,16 +1,25 @@
+/* Apply the 'Ubuntu' font to the entire body of the page */
 body {
-    background-color: #A2CFFE;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
+/* Additional styles for your h1 element */
 h1 {
-    color: #333;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300; /* Use a lighter font weight for a softer look */
 }
 
+/* Style for the button to make it more appealing */
 button {
+    font-family: 'Ubuntu', sans-serif; /* Ensures the button text uses the same font */
     padding: 10px 20px;
-    font-size: 16px;
-    margin-top: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Button hover effect to give user feedback */
+button:hover {
+    background-color: #45a049;
 }
