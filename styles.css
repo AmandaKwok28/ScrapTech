@@ -22,7 +22,7 @@ button {
     font-family: 'MyCustomFont', sans-serif; /* Ensures the button text uses the same font */
     padding: 10px 20px;
     border: none;
-    background-color: #4CAF50;
+    background-color: #A2cffe;
     color: white;
     cursor: pointer;
 }
