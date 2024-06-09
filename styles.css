@@ -1,7 +1,7 @@
 /* Define a custom font using @font-face */
 @font-face {
     font-family: 'MyCustomFont'; /* The name you want to use for the font */
-    src: url('Fonts/Ak3-Regular.ttf') format('truetype'); /* Path to your font file */
+    src: url('fonts/Ak3-Regular.ttf') format('truetype'); /* Path to your font file */
     /* For .otf file, use format('opentype') */
 }
 
@@ -76,7 +76,6 @@ button:hover {
 
 /* Style the description text inside each highlight box */
 .highlight-box p {
-    font-family: 'Ubuntu', sans-serif; /* Use the Ubuntu font for the text */
+    font-family: 'MyCustomFont', sans-serif; /* Use the custom font for the text */
     font-size: 1.2em; /* Slightly increase the font size */
 }
-
