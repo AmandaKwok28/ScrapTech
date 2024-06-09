@@ -8,6 +8,7 @@
 /* Apply the custom font to the body */
 body {
     font-family: 'MyCustomFont', sans-serif;
+    text-align: center;
 }
 
 /* Additional styles for your h1 element */
