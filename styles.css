@@ -10,13 +10,13 @@ body {
     font-family: 'MyCustomFont', sans-serif;
     text-align: center;
     background-color: #A2cffe;
-    font-size: large;
+    font-size: larger;
 }
 
 /* Additional styles for your h1 element */
 h1 {
     font-family: 'MyCustomFont', sans-serif;
-    font-weight: 310; /* Use a lighter font weight for a softer look */
+    font-weight: 330; /* Use a lighter font weight for a softer look */
 }
 
 /* Style for the button to make it more appealing */
@@ -27,7 +27,7 @@ button {
     background-color: #A2cffe;
     color: white;
     cursor: pointer;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 /* Button hover effect to give user feedback */
