@@ -1,17 +1,24 @@
-/* Apply the 'Ubuntu' font to the entire body of the page */
+/* Define a custom font using @font-face */
+@font-face {
+    font-family: 'MyCustomFont'; /* The name you want to use for the font */
+    src: url('Myfont-Regular.ttf') format('truetype'); /* Path to your font file */
+    /* For .otf file, use format('opentype') */
+}
+
+/* Apply the custom font to the body */
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
 }
 
 /* Additional styles for your h1 element */
 h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'MyCustomFont', sans-serif;
     font-weight: 300; /* Use a lighter font weight for a softer look */
 }
 
 /* Style for the button to make it more appealing */
 button {
-    font-family: 'Ubuntu', sans-serif; /* Ensures the button text uses the same font */
+    font-family: 'MyCustomFont', sans-serif; /* Ensures the button text uses the same font */
     padding: 10px 20px;
     border: none;
     background-color: #4CAF50;
